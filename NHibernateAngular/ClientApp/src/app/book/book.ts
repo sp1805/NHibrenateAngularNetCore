@@ -1,6 +1,8 @@
 export class IBook {
-  Author: string;
-  Genre: string;
-  ID: number;
-  Title: string;
+  id: number;
+  title: string;
+  author: string;
+  genre: string;
+
+  constructor(data) { (<any>Object).assign(this, data); }
 }

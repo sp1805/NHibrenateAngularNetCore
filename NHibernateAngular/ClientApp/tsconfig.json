@@ -17,5 +17,9 @@
       "es2015.iterable",
       "dom"
     ]
+
+  },
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160602141332"
   }
 }

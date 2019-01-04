@@ -1,0 +1,22 @@
+<div class="col-md-6">
+  <h2 class="text-center">Edit Book</h2>
+  <form [formGroup]="editForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="title">Title:</label>
+      <input formControlName="title" placeholder="Title" name="title" class="form-control" id="title">
+    </div>
+
+    <div class="form-group">
+      <label for="author">Author</label>
+      <input formControlName="author" placeholder="Author" name="author" class="form-control" id="author">
+    </div>
+
+    <div class="form-group">
+      <label for="genre">Genre</label>
+      <input formControlName="genre" placeholder="Genre" name="genre" class="form-control" id="genre">
+    </div>
+
+    <button class="btn btn-success">Update</button>
+  </form>
+</div>

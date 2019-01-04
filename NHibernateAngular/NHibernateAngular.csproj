@@ -28,11 +28,15 @@
 
   <ItemGroup>
     <None Remove="ClientApp\src\app\book\book.ts" />
+    <None Remove="ClientApp\src\app\book\bookcreate.component.ts" />
+    <None Remove="ClientApp\src\app\book\bookedit.component.ts" />
     <None Remove="ClientApp\src\app\book\booklist.component.ts" />
   </ItemGroup>
 
   <ItemGroup>
     <TypeScriptCompile Include="ClientApp\src\app\book\book.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\book\bookcreate.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\book\bookedit.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\book\booklist.component.ts" />
   </ItemGroup>
 
